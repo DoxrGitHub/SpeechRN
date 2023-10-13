@@ -1,17 +1,18 @@
-{
-  "name": "Multiple-Peers",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^2.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+2{
+3    "name": "SpeechRN",
+4    "version": "1.0.0",
+5    "description": "",
+6    "scripts": {
+9        "start": "node index.js"
+10    },
+11    "repository": {
+12        "type": "git",
+13        "url": "git+https://github.com/DoxrGitHub/SpeechRN.git"
+14    },
+15    "author": "",
+16    "license": "ISC",
+17    "bugs": {
+18        "url": "https://github.com/DoxrGitHub/SpeechRN/issues"
+19    },
+20    "homepage": "https://github.com/DoxrGitHub/SpeechRN#readme"
+21}
