@@ -5,6 +5,7 @@ const loginform = document.querySelector('#joinroom');
 const videos = document.querySelector('#chatroom');
 const remotevideos = document.querySelector('#remotevideos')
 
+// this exists
 const localVideo = document.querySelector('#localVideo');
 const mediaconstraints = { video: { width: 9999, height: 9999 }, audio: true };
 
