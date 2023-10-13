@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SpeechRN</title>
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/client/css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+</head>
+<body>
+  <div id="joinroom" class="flex">
+    <form class="form-horizontal" id="roomform">
+      Loading... please wait to be connected.
+    </form>
+  </div>
+  <div id="chatroom" class="flex">
+    <div id="videostreams">
+      <div id="remotevideos">
+
+      </div>
+      <video id="localVideo" autoplay="true" muted="true"></video>
+    </div>
+  </div>
+  <script src="/client/js/script.js"></script>
+</body>
+</html>
